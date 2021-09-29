@@ -111,7 +111,7 @@ nav {display: flex; width: 100%; }
 .home-content .block-latest-news .block-content .item-content .detail{ font-size: 40px; font-family: "SofiaPro-Regular"; }
 .home-content .block-latest-news .block-content .item-content .detail .console{ font-size: 15px; color: #707070 ; font-family: "Sofia-Pro-UltraLight"; font-weight: 600; }
 
-.home-content .block-download-app{ padding: 185px 0; background: url('../images/Mask_Group_7.png') no-repeat center; }
+.home-content .block-download{ padding: 185px 0; background: url('../images/Mask_Group_7.png') no-repeat center; }
 
 .footer img{ max-width: 100%; }
 .footer .footer-top{ padding: 200px 0; }
@@ -228,7 +228,7 @@ nav {display: flex; width: 100%; }
   .home-content .block-ecosystem .content{ padding: 25px; }
   .home-content .block-ecosystem .content .control{ margin-top: 30px; }
 
-  .home-content .block-vision, .home-content .block-download-app{ padding: 100px 0; }
+  .home-content .block-vision, .home-content .block-download{ padding: 100px 0; }
   .home-content .block-vision .item{ background: none; padding: 0; }
 
   .home-content .block-community .title{ font-size: 45px; }
@@ -287,7 +287,7 @@ nav {display: flex; width: 100%; }
 
   .home-content .block-play-earn .block-content .block-item{ min-height: 400px; width: 100%; margin: 0; }
 
-  .home-content .block-ecosystem, .home-content .block-gallery, .home-content .block-vision, .home-content .block-download-app, .home-content .block-community, .home-content .block-latest-news{ padding: 50px 0; margin: 0; }
+  .home-content .block-ecosystem, .home-content .block-gallery, .home-content .block-vision, .home-content .block-download, .home-content .block-community, .home-content .block-latest-news{ padding: 50px 0; margin: 0; }
 
   .home-content .block-ecosystem .list-item-tab{ padding: 10px 5px; }
   .home-content .block-ecosystem .list-item-tab .list-item .item .btn{ font-size: 15px; }
@@ -312,5 +312,5 @@ nav {display: flex; width: 100%; }
 }
 
 @media(max-width:  575px){
-  .block-download-app .img-app img{ width: 100%; }
+  .block-download .img-app img{ width: 100%; }
 }

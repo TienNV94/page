@@ -488,7 +488,7 @@
             </div>
         </div>
 
-        <div class="block block-download-app">
+        <div class="block block-download">
             <div class="container">
                 <div class="title-img text-center"><img src="./images/Icon Top.svg"></div>
                 <div class="block-title text-center wow fadeInUp  animated">
@@ -649,16 +649,14 @@
             $(window).scroll(function() {
                 var topPos = $(this).scrollTop();
                 if (topPos > 100) {
-                  $(scrollTop).css("opacity", "1");
+                    $(scrollTop).css("opacity", "1");
                 } else {
-                  $(scrollTop).css("opacity", "0");
+                    $(scrollTop).css("opacity", "0");
                 }
             }); 
 
             $(scrollTop).click(function() {
-                $('html, body').animate({
-                  scrollTop: 0
-                }, 2000);
+                $('html, body').animate({scrollTop: 0 }, 2000);
                 return false;
             }); 
 
