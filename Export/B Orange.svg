@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113" height="56" viewBox="0 0 113 56">
+  <defs>
+    <linearGradient id="linear-gradient" y1="2.489" x2="0.715" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5f29"/>
+      <stop offset="1" stop-color="#ffb000"/>
+    </linearGradient>
+    <filter id="Rectangle_14" x="0" y="0" width="113" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#ff6626" flood-opacity="0.988"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="B_Orange" data-name="B Orange" transform="translate(16 10)">
+    <g transform="matrix(1, 0, 0, 1, -16, -10)" filter="url(#Rectangle_14)">
+      <rect id="Rectangle_14-2" data-name="Rectangle 14" width="83" height="26" rx="13" transform="translate(16 10)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

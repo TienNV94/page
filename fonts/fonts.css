@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'SofiaPro-Regular';
+	src:url('SofiaPro-Regular.eot');
+	src:url('SofiaPro-Regular.eot?#iefix') format('embedded-opentype'),  
+		url('SofiaPro-Regular.woff') format('woff'), 
+		url('SofiaPro-Regular.woff2') format('woff2'), 
+		url('SofiaPro-Regular.ttf')  format('truetype'), 
+		url('SofiaPro-Regular.svg#SofiaPro-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'SofiaPro-Bold';
+	src:url('SofiaPro-Bold.eot');
+	src:url('SofiaPro-Bold.eot?#iefix') format('embedded-opentype'),  
+		url('SofiaPro-Bold.woff') format('woff'), 
+		url('SofiaPro-Bold.woff2') format('woff2'), 
+		url('SofiaPro-Bold.ttf')  format('truetype'), 
+		url('SofiaPro-Bold.svg#SofiaPro-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'Sofia-Pro-UltraLight';
+	src:url('Sofia-Pro-UltraLight.eot');
+	src:url('Sofia-Pro-UltraLight.eot?#iefix') format('embedded-opentype'),  
+		url('Sofia-Pro-UltraLight.woff') format('woff'), 
+		url('Sofia-Pro-UltraLight.woff2') format('woff2'), 
+		url('Sofia-Pro-UltraLight.ttf')  format('truetype'), 
+		url('Sofia-Pro-UltraLight.svg#Sofia-Pro-UltraLight') format('svg');
+}
+
+@font-face {
+	font-family: 'SofiaW03-UltraLight';
+	src:url('SofiaW03-UltraLight.eot');
+	src:url('SofiaW03-UltraLight.eot?#iefix') format('embedded-opentype'),  
+		url('SofiaW03-UltraLight.woff') format('woff'), 
+		url('SofiaW03-UltraLight.woff2') format('woff2'), 
+		url('SofiaW03-UltraLight.ttf')  format('truetype'), 
+		url('SofiaW03-UltraLight.svg#SofiaW03-UltraLight') format('svg');
+}

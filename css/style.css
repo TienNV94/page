@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../fonts/fonts.css";
+
+body {background: #081730; color: #fff; }
+li {list-style: none; float: left; }
+ul, p {padding: 0; margin: 0; }
+a {color: #fff; }
+a:hover {text-decoration: none; }
+img {max-width: 100%; }
+
+.btn {color: #fff; }
+
+.block{ border-radius: 0 0 100px 100px; }
+
+.block-title {font-size: 40px; padding: 45px 0 75px; }
+.block-title .block-subtitle { font-family: "SofiaPro-Bold"; }
+
+.circle{min-width:250px; display:inline-block; background: #25274A; padding: 25px; border-radius: 50%;}
+.circle canvas{ width: 250px !important; height: 250px !important; }
+
+nav {display: flex; width: 100%; }
+.header {background: transparent; font-size: 18px; padding-top: 45px; position: fixed; width: 100%; left: 0; top: 0; transition: .5s; z-index: 1000; }
+.header.sticky{ background: #102344; height: 70px; padding: 0; }
+.header .menu-mobile{ display: none; }
+.header .navbar ul li {padding: 0 14px; line-height: 50px; }
+.header .navbar .float-xl-left li a{ font-family: "SofiaPro-Regular"; }
+.header .navbar .float-xl-right li a span {color: #ffc102; }
+.header .navbar .float-xl-right li .btn {border-radius: 50px; padding: 5px 25px; background: linear-gradient(to right, #ff5f29 0%, #ffb000 100%); border: 0; color: #fff; font-size: 18px; -webkit-box-shadow: -3px 10px 15px -2px rgba(255, 95, 41, 0.6); box-shadow: -3px 10px 15px -2px rgba(255, 95, 41, 0.6); }
+.header .navbar .float-xl-right li .register {background: linear-gradient(to right, #0052ff 0%, #2eccff 100%); -webkit-box-shadow: -3px 10px 15px -2px rgba(0, 82, 255, 0.6); box-shadow: -3px 10px 15px -2px rgba(0, 82, 255, 0.6); }
+.header .navbar .float-xl-right li .dropdown-toggle {background: transparent; border: 1px solid #2489fd; box-shadow: none; }
+.header .navbar .float-xl-right li .number {border: 1px solid #2489fd; padding: 5px 15px; border-radius: 50px; }
+.header .navbar .float-xl-right li a, .header .navbar .float-xl-right li a .btn{ font-size: 14px; }
+.header .navbar .float-xl-right li a.download{ font-size: 18px; }
+
+.home-content .block-banner {position: relative; }
+.home-content .block-banner .banner-img {position: relative; overflow: hidden; }
+.home-content .block-banner .banner-img .adv-left {position: absolute; bottom: 10%; left: 5%; }
+.home-content .block-banner .banner-img .adv-right {position: absolute; top: 0%; right: -11%; }
+.home-content .block-banner .content {position: absolute; width: 670px; max-width: 100%; left: 50%; top: 35%; margin-left: -335px; color: #fff; }
+.home-content .block-banner .content .title, .home-content .block-banner .content .note {font-size: 90px; color: #2489fd; font-family: "SofiaPro-Bold"; }
+.home-content .block-banner .content .note {color: #ffc102; }
+.home-content .block-banner .content .text {font-size: 33px; font-family: "SofiaW03-UltraLight"; font-weight: 700; }
+.home-content .block-banner .content .image{ margin-top: 20px;}
+
+.home-content .block-experience {padding: 180px 0 100px 0; background: #081730; position: relative; }
+.home-content .block-experience .block-content .block-experience-item {position: relative; height: 100%; padding: 50px 50px 100px 50px; border-radius: 15px; background: rgb(11, 85, 184); background: radial-gradient(circle, rgba(11, 85, 184, 1) 0%, rgba(59, 0, 128, 1) 100% ); }
+.home-content .block-experience .block-content .col-md-4:first-child .block-experience-item {background: url("../images/Experience-1.svg") no-repeat center; background-size: cover; }
+.home-content .block-experience .block-content .col-md-4:last-child .block-experience-item {background: url("../images/Experience-3.svg") no-repeat center; background-size: cover; }
+.home-content .block-experience .block-content .block-experience-item .content {display: flow-root; position: absolute; width: 100%; bottom: 10px; left: 0px; padding: 0 50px; }
+.home-content .block-experience .block-content .block-experience-item .content .item-title {font-size: 22px; font-family: "SofiaPro-Bold"; }
+.home-content .block-experience .block-content .block-experience-item .content .item-title .sub-title {font-size: 15px; font-family: "SofiaW03-UltraLight"; }
+.home-content .block-experience .block-content .block-experience-item .content .btn { font-family: "SofiaPro-Bold"; position: absolute; bottom: 0; right: 50px; font-size: 11px; border-radius: 50px; background: #ff731f; padding: 5px 30px; }
+
+.home-content .block-intro {background: #232a4e; padding: 200px 0 100px 0; margin-top: -100px; }
+.home-content .block-intro .block-content {position: relative; }
+.home-content .block-intro .block-content .block-intro-item .content {font-size: 18px; padding-top: 40px; color: #ff5f29; font-family: "SofiaPro-Regular"; }
+.home-content .block-intro .block-inrto-nft{ display: flex; margin-top: 60px; }
+.home-content .block-intro .block-inrto-nft .ntf-logo{ z-index: 10; float: left;  }
+.home-content .block-intro .block-inrto-nft .intro-nft-content{ font-family: Montserrat; font-weight: 500; float: right; width: 1300px; max-width: 100%; z-index: 1; margin-left: -100px; background: rgb(56,13,94); background: radial-gradient(circle, rgba(56,13,94,1) 0%, rgba(6,2,9,1) 100%); padding: 50px 100px 30px 125px; font-size: 42px; color: #FFC102; }
+.home-content .block-intro .block-inrto-nft .intro-nft-content .text{ font-family: Sofia-Pro-UltraLight; color: #fff; font-size: 22px; }
+
+.home-content .block-play-earn{ padding: 70px 0 200px 0; position: relative; z-index: 100; background: #081730; }
+.home-content .block-play-earn .block-content .block-item{ width: 320px; max-width: 100%; background: url('../images/bg_play_earn.svg') no-repeat center; padding: 40px 25px !important; }
+.home-content .block-play-earn .block-content .block-item .title{ font-size: 38px; color: #FFC102; }
+.home-content .block-play-earn .block-content .block-item .text{ font-size: 13px; font-family: Sofia-Pro-UltraLight; }
+.home-content .block-play-earn .block-content .block-item .btn{ font-family: "Montserrat"; font-weight: 600; font-size: 9px; background: #5855BE; padding: 5px 30px; border-radius: 50px; margin-top: 25px; }
+
+.home-content .block-gaming{ padding: 200px 0 100px 0; background: #232A4E; position: relative; margin-top: -100px; z-index: 10; }
+.home-content .block-gaming::before{ position: absolute; content: ""; width: 100%; height: 100%; background: url('../images/Mask_Group_9.png') no-repeat center; border-radius: 0 0 100px 100px; top: 0; left: 0; opacity: 0.5;}
+.home-content .block-gaming .nft-item{ padding: 30px; border: 1px solid #fff; border-radius: 15px; }
+.home-content .block-gaming .nft-slider .item{ padding-top: 45px; }
+.home-content .block-gaming .owl-carousel .owl-nav span{ top: 37%; right: 99%; left: -3%; }
+.home-content .block-gaming .owl-carousel .owl-nav .owl-next span{ left: 98%; right: -2%; }
+.home-content .block-gaming .nft-abi{ font-family: "SofiaPro-Regular"; background: url('../images/Mask_Group_5.png') no-repeat center; background-size: cover; padding: 25px 15px; border: 1px solid #707070; border-radius: 15px; margin-top: 50px; }
+.home-content .block-gaming .nft-abi .title{ font-size: 40px; color: #FFC102; padding-top: 15px; }
+.home-content .block-gaming .nft-abi .btn{ font-size: 26px; color: #FFC102; background: url('../images/btn-bg.svg') no-repeat center; width: 100%; background-size: cover; padding: 25px 0; }
+
+.home-content .block-ecosystem{ background: url('../images/Mask_Group_10.png') no-repeat center; padding: 200px 0; margin-top: -100px;  }
+.home-content .block-ecosystem .list-item-tab{ display: flow-root; background: #25274A; padding: 40px 20px; border-radius: 20px; height: 100%; position: relative; }
+.home-content .block-ecosystem .list-item-tab::before{ position: absolute; content: ""; width: 100%; height: 100%; left: 0; top: 0; background: url('../images/Mask_Group_6.png') no-repeat center; background-size: cover; border-radius: 20px; }
+.home-content .block-ecosystem .list-item-tab .list-item .item{ position: relative; width: 100%; margin: 10px 0; }
+.home-content .block-ecosystem .list-item-tab .list-item .item .btn{ display: block; padding: 25px 15px; border-radius: 10px; border: 1px solid #fff; color: #FFC102; font-size: 26px; font-family: "SofiaPro-Regular"; }
+.home-content .block-ecosystem .content{ height: 100%; background: #333654; padding: 100px; border: 2px solid #25274A; }
+.home-content .block-ecosystem .content .circular{ position: relative; padding-bottom: 40px; }
+.home-content .block-ecosystem .content .circular .youtube{ position: absolute; width: 100%; top: 44%; left: 0; }
+.home-content .block-ecosystem .content .progress{ border-radius: 50px; margin-top: 30px; }
+.home-content .block-ecosystem .content .control img:hover{ cursor: pointer; }
+
+.home-content .block-vision{ padding: 200px 0; background: #081730; position: relative; }
+.home-content .block-vision .row-item{ height: 100%; }
+.home-content .block-vision .item{ padding: 35px; background: url('../images/bg-nft.svg') no-repeat center; border-radius: 50%; }
+.home-content .block-vision .item .note a{ font-size: 25px; font-family: "SofiaPro-Bold"; color: #2489FD; }
+.home-content .block-vision .block-title, .home-content .block-gallery .block-title{ padding-bottom: 30px; }
+.home-content .block-vision .text, .home-content .block-gallery .text, .home-content .block-community .text{ font-size: 26px; font-family: "Sofia-Pro-UltraLight"; font-weight: 700; }
+
+.home-content .block-gallery{ padding: 200px 0; margin-top: -100px; background: #232A4E; position: relative; }
+.home-content .block-gallery::before{ position: absolute; content: ""; background: url('../images/bg-galllery.png') no-repeat bottom left; width: 100%; height: 100%; left: 0; top: 0; }
+.home-content .block-gallery .content{ background: url('../images/bg-text.png') no-repeat center; background-size: cover; padding: 61px 35px; }
+.home-content .block-gallery .content .block-title{ padding-top: 0; }
+
+.home-content .block-community{ padding: 100px 0; }
+.home-content .block-community .title{ font-size: 60px; font-family: "SofiaPro-Bold"; }
+.home-content .block-community .title span{ color: #FFC102; }
+.home-content .block-community .btn{ padding: 10px 100px; font-size: 26px; background: linear-gradient(#2ECCFF, #1B9AFF); border-radius: 100px; margin-top: 30px; }
+
+.home-content .block-latest-news{ background: #232A4E; padding: 100px 0; }
+.home-content .block-latest-news .block-content{ padding-left: 50px; }
+.home-content .block-latest-news .block-content .item-content { display: flex; padding-bottom: 20px; }
+.home-content .block-latest-news .block-content .item-content .number{  font-family: "SofiaPro-Regular"; color: #FFC102; font-size: 53px; padding-right: 50px; position: relative; }
+.home-content .block-latest-news .block-content .item-content .number::after{ position: absolute; content: "2021-09-27"; font-family: "SofiaPro-Regular"; font-size: 8px; color: rgba(255,107,35,1); transform: translate(-0.372px, 0px) matrix(1,0,0,1,37.3721,39) rotate(-90deg); transform-origin: center; left: 10px; top: 0px; width: 43px; }
+.home-content .block-latest-news .block-content .item-content .detail{ font-size: 40px; font-family: "SofiaPro-Regular"; }
+.home-content .block-latest-news .block-content .item-content .detail .console{ font-size: 15px; color: #707070 ; font-family: "Sofia-Pro-UltraLight"; font-weight: 600; }
+
+.home-content .block-download-app{ padding: 185px 0; background: url('../images/Mask_Group_7.png') no-repeat center; }
+
+.footer img{ max-width: 100%; }
+.footer .footer-top{ padding: 200px 0; }
+.footer .footer-left .item{ background: url('../images/BoxShip.svg') no-repeat center; background-size: cover; padding: 20px; border: 1px solid #707070; }
+.footer .footer-left .last .item{ background: none; border:none; }
+.footer .footer-right{ padding-left: 100px; }
+.footer .footer-right .form-search{ margin-bottom: 45px; }
+.footer .footer-right .form .form-outline{ margin-right: 30px; width: 83%; margin-right: 7%; }
+.footer .footer-right .form .form-control{ background: #020917; color: #707070; font-size: 20px; border-radius: 15px; padding: 30px 20px; font-family: Sofia-Pro-UltraLight; border: 0; }
+.footer .footer-right .form .form-control::placeholder{ color: #707070; font-family: Sofia-Pro-UltraLight; }
+.footer .footer-right .form .btn{ width: 10%; border-radius: 15px; background: rgb(46,204,255); background: linear-gradient(27deg, rgba(46,204,255,1) 0%, rgba(0,82,255,1) 100%); }
+.footer .footer-right .form .btn .fas{ font-weight: 500; font-size: 25px; }
+.footer .footer-right .block-title .text{ font-size: 26px; color: #707070; font-family: Sofia-Pro-UltraLight; font-weight: 700; }
+.footer .copy-right{ background: url('../images/Mask_Group_8.png') no-repeat center; position: relative; }
+.footer .copy-right .img-content{  position: absolute; width: 10%; left: 45%; top: 33%; }
+.footer .copy-right .blog-content{ position: absolute; width: 100%; left: 0; bottom: 50px; }
+.footer .copy-right .blog-content span{ color: #707070; }
+
+.scrollTop { z-index: 10000; position: fixed; right: 2%; bottom: 10px; background: #230374; padding: 15px 20px; opacity: 0; transition: all 0.4s ease-in-out 0s; }
+.scrollTop a {font-size: 18px; color: #fff; }
+.scrollTop:hover{ cursor: pointer; }
+
+.owl-carousel .owl-item img {width: auto; display: inline-block; }
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {display: inline; font-size: 25px; }
+.owl-carousel .owl-nav span {background: #ff5f29; padding: 0px 15px 6px 15px; border-radius: 50%; position: absolute; left: -5%; top: 30%; box-shadow: -2px 7px 10px -2px #ff5f29; transition: 0.3s; }
+.owl-carousel .owl-nav span:hover {background: #ffb000; box-shadow: -2px 7px 10px -2px #ffb000; } 
+.owl-carousel .owl-nav .owl-next span {left: 102%; right: -5%; top: 30%; }
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1530px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .owl-carousel .owl-nav span{ right: 101%;}
+  .owl-carousel .owl-nav .owl-next span{ right: -6%; left: 102%;}
+
+  .home-content .block-banner .banner-img .adv-right{ right: -28%; }
+  .home-content .block-banner .content .title, .home-content .block-banner .content .note{ font-size: 60px;}
+  .home-content .block-banner .content .text{ font-size: 25px; }
+
+  .home-content .block-experience .block-content .block-experience-item .content{ padding: 0 15px;}
+  .home-content .block-experience .block-content .block-experience-item .content .btn{ right: 15px; padding: 5px 15px;}
+
+  .home-content .block-intro .block-inrto-nft .intro-nft-content{ margin-left: -100px; padding: 20px 50px 30px 40px; font-size: 35px; }
+
+  .home-content .block-gaming .nft-abi .title{ font-size: 30px;}
+  .home-content .block-gaming .nft-abi{ background-position: left;}
+  .home-content .block-gaming .owl-carousel .owl-nav span{ left: -5%;}
+  .home-content .block-gaming .owl-carousel .owl-nav .owl-next span{ left: 98%; right: -4%;}
+
+  .home-content .block-vision .item{ background-size: cover; }
+
+  .home-content .block-gallery::before{ background-position: center bottom; }
+
+  .footer .footer-right{ padding-left: 50px;}
+  .footer .footer-right .block-title{ font-size: 35px;}
+  .footer .footer-right .block-title .text{ font-size: 20px;}
+}
+
+@media (max-width: 1200px) {
+  .owl-carousel .owl-nav span{ left: -4%;}
+  .owl-carousel .owl-nav .owl-next span{ left: 101%; right: -4%;}
+  
+  .block-title{ font-size: 30px; padding: 40px 0; }
+  
+  .col-block{ display: contents; }
+  
+  .navbar, .container-fluid{ display: flow-root; padding: 0;}
+  
+  .header{ padding: 10px 0; font-size: 15px; }
+  .header.sticky{ height: 60px; padding: 10px 0; }
+  .header .menu-mobile{ padding: 0 15px; display: flow-root; }
+  .header .menu-bars-mobile{ font-size: 30px; line-height: 45px; }
+  .header .navbar{ display: none; background: #404872; padding-bottom: 15px; }
+  .header .navbar .header-meta{ padding-left: 15px; }
+  .header .navbar ul li{ width: 100%; line-height: 35px; padding: 0; }
+  .header .navbar ul li .btn{ font-size: 15px; }
+  .header .navbar .header-action li{ width: 50%; padding: 5px; }
+  .header .navbar .header-action li a, .header .navbar .header-action li a .btn{ width: 100%; display: flow-root; }
+  .header .navbar .float-xl-right li .number{ line-height: 20px; }
+  .header .navbar .float-xl-right li a.download,   .header .navbar .float-xl-right li .dropdown{ border: 1px solid #2489fd; border-radius: 50px; text-align: center; }
+    .header .navbar .float-xl-right li .dropdown .btn{ border: 0; padding: 0; }
+    .header .navbar .header-action li a .login, .header .navbar .header-action li a .register{ font-size: 17px; }
+
+  .home-content .block-banner{ margin-top: 60px; }
+  .home-content .block-banner .banner-img .adv-left { bottom: 7%; left: 0%; width: 200px; height: 150px; }
+  .home-content .block-banner .banner-img .adv-right{ right: 0; width: 300px; }
+  .home-content .block-banner .content .title, .home-content .block-banner .content .note{ font-size: 40px; }
+  .home-content .block-banner .content .text{ font-size: 20px; }
+  .home-content .block-banner .content .image img{ width: 100px; }
+
+  .home-content .block-experience{ padding: 60px 0;}
+  .home-content .block-experience .block-content .block-experience-item{ padding: 20px; min-height: 200px; }
+  .home-content .block-experience .block-content .block-experience-item .content .btn{ position: initial; }
+
+  .home-content .block-intro .block-content .block-intro-item .content{ font-size: 15px; }
+  .home-content .block-intro .block-inrto-nft .ntf-logo img{ height: 100%; }
+  .home-content .block-intro .block-inrto-nft .intro-nft-content{ margin-left: -85px; padding: 20px 100px; }
+  .home-content .block-intro .block-inrto-nft .intro-nft-content .text br{ display: none; }
+  .home-content .block-intro .block-inrto-nft{ margin: 0; }
+  .home-content .block-intro .block-inrto-nft .intro-nft-content{ margin-left: -50px; padding: 20px 50px; }
+  
+  .home-content .block-play-earn{ padding: 50px 0;}
+  .home-content .block-play-earn .block-content .block-item{ margin: 0 15px;}
+
+  .home-content .block-gaming{ padding: 150px 0 50px 0;}
+  .home-content .block-gaming .owl-carousel .owl-nav span{ left: -2%; right: 98%; }
+  .home-content .block-gaming .owl-carousel .owl-nav .owl-next span{ right: -2%;}
+
+  .home-content .block-ecosystem, .home-content .block-gallery{ padding: 100px 0; margin: 0; }
+  .home-content .block-ecosystem .list-item-tab .list-item .item .btn{ padding: 10px; }
+  .home-content .block-ecosystem .content{ padding: 25px; }
+  .home-content .block-ecosystem .content .control{ margin-top: 30px; }
+
+  .home-content .block-vision, .home-content .block-download-app{ padding: 100px 0; }
+  .home-content .block-vision .item{ background: none; padding: 0; }
+
+  .home-content .block-community .title{ font-size: 45px; }
+  .home-content .block-vision .text, .home-content .block-gallery .text, .home-content .block-community .text{ font-size: 22px; }
+
+  .home-content .block-latest-news .block-content{ padding: 0; }
+  .home-content .block-latest-news .block-content .item-content .number{ font-size: 45px; }
+  .home-content .block-latest-news .block-content .item-content .number::after{ left: 5px; }
+  .home-content .block-latest-news .block-content .item-content .detail{ font-size: 35px; }
+  .home-content .block-latest-news .block-content .item-content .detail .console{ font-size: 13px; }
+  
+  .footer .footer-top{ padding: 70px 0; }
+  .footer .footer-right{ padding: 50px 0 0 0; }
+  .footer .footer-right .form .form-outline{ margin-right: 1%;}
+  .footer .footer-right .form .btn{ width: 16%;}
+  .footer .copy-right .img-content{ width: 20%; left: 40%; top: 17%; }
+}
+
+@media(max-width:  992px) {
+  .home-content .block-vision .item{ padding-bottom: 30px; }
+
+  .home-content .block-ecosystem .list-item-tab .list-item .item .btn{ font-size: 20px; }
+
+  .home-content .block-gallery .content{ padding: 20px; border-radius: 15px; }
+
+}
+
+@media(max-width:  768px){
+  .d-flex{ display: flow-root !important; }
+  .block{ border-radius: 0; }
+  .block-title{ font-size: 27px; padding: 25px 0; }
+  .owl-carousel .owl-nav span{ left: -2%; }
+  .owl-carousel .owl-nav .owl-next span{ left: 95%; right: -2%; }
+
+  .home-content .block-banner .banner-img .adv-left{ left: 0; width: 100px; }
+  .home-content .block-banner .banner-img .adv-right{ width: 150px; }
+  .home-content .block-banner .content{ top: 27%; left: 0; margin: 0; }
+  .home-content .block-banner .content .title, .home-content .block-banner .content .note{ font-size: 22px; }
+  .home-content .block-banner .content .text{ font-size: 12px; }
+  .home-content .block-banner .content .image{ margin-top: 10px; }
+  .home-content .block-banner .content .image img{  width: 70px;  }
+
+  .home-content .block-experience{ padding: 40px 0; }
+
+  .home-content .block-intro{ padding: 50px 0; margin: 0;  }
+  .home-content .block-intro .block-intro-item .img{ padding: 15px; }
+  .home-content .block-intro .block-content .block-intro-item .content{ padding: 0; }
+  .home-content .block-intro .block-inrto-nft .intro-nft-content{ margin: 0; padding: 20px; font-size: 25px; }
+  .home-content .block-intro .block-inrto-nft .intro-nft-content .text{ font-size: 17px; }
+
+  .home-content .block-gaming{ margin: 0; padding: 50px 0; }
+  .home-content .block-gaming .nft-abi .btn{ padding: 45px 0; }
+  .home-content .block-gaming .owl-carousel .owl-nav span{ left: -5%; }
+
+  .home-content .block-experience .block-content .block-experience-item{ min-height: 250px; height: 250px; margin-top: 20px; }
+
+  .home-content .block-play-earn .block-content .block-item{ min-height: 400px; width: 100%; margin: 0; }
+
+  .home-content .block-ecosystem, .home-content .block-gallery, .home-content .block-vision, .home-content .block-download-app, .home-content .block-community, .home-content .block-latest-news{ padding: 50px 0; margin: 0; }
+
+  .home-content .block-ecosystem .list-item-tab{ padding: 10px 5px; }
+  .home-content .block-ecosystem .list-item-tab .list-item .item .btn{ font-size: 15px; }
+  .home-content .block-ecosystem .content .circular{ padding: 0; }
+
+  .home-content .block-community .title{ font-size: 35px; }
+  .home-content .block-community .img { text-align: center; }
+  .home-content .block-vision .text, .home-content .block-gallery .text, .home-content .block-community .text{ font-size: 15px; }
+
+  .home-content .block-latest-news .block-content .item-content .number{ font-size: 35px; padding-right: 30px; }
+  .home-content .block-latest-news .block-content .item-content .number::after{ top: -15px; left: -15px;  }
+  .home-content .block-latest-news .block-content .item-content .detail{ font-size: 20px; }
+
+  .home-content .block-ecosystem .content{ padding: 10px; }
+
+  .footer .footer-left .item{ margin-bottom: 10px; }
+  .footer .footer-right .block-title{ font-size: 27px; }
+  .footer .footer-right .block-title .text{ font-size: 17px; }
+  .footer .copy-right .blog-content{ width: 90%; left: 5%; bottom: 10px; }
+  .footer .copy-right .blog-content .content{ font-size: 12px; }
+  .footer .copy-right .img-content{ width: 25%; left: 37.5%; top: 7%; }
+}
+
+@media(max-width:  575px){
+  .block-download-app .img-app img{ width: 100%; }
+}

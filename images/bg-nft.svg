@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="273.98" height="273.979" viewBox="0 0 273.98 273.979">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0.5 -0.207) rotate(45)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#081730"/>
+      <stop offset="0.774" stop-color="#081730" stop-opacity="0"/>
+      <stop offset="1" stop-color="#666"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.986" y1="0.014" x2="0.195" y2="0.805" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e3e3e3"/>
+      <stop offset="0.014" stop-color="#e6e6e6"/>
+      <stop offset="0.137" stop-color="#fefefe"/>
+      <stop offset="0.153" stop-color="#ededed"/>
+      <stop offset="0.197" stop-color="#c2c2c2"/>
+      <stop offset="0.237" stop-color="#a3a3a3"/>
+      <stop offset="0.271" stop-color="#909090"/>
+      <stop offset="0.295" stop-color="#8a8a8a"/>
+      <stop offset="0.349" stop-color="#9f9f9f"/>
+      <stop offset="0.462" stop-color="#d7d7d7"/>
+      <stop offset="0.466" stop-color="#d9d9d9"/>
+      <stop offset="0.565" stop-color="#cfcfcf"/>
+      <stop offset="0.867" stop-color="#686868"/>
+      <stop offset="0.882" stop-color="#777"/>
+      <stop offset="0.895" stop-color="#7d7d7d"/>
+      <stop offset="0.917" stop-color="#8c8c8c"/>
+      <stop offset="0.959" stop-color="#b5b5b5"/>
+      <stop offset="1" stop-color="#e3e3e3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.924" y1="-0.156" x2="0.052" y2="0.772" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.49"/>
+      <stop offset="0.082" stop-color="#d9d9d9"/>
+      <stop offset="0.222" stop-color="#a0a0a0"/>
+      <stop offset="0.363" stop-color="#6f6f6f"/>
+      <stop offset="0.5" stop-color="#474747"/>
+      <stop offset="0.635" stop-color="#282828"/>
+      <stop offset="0.765" stop-color="#111"/>
+      <stop offset="0.889" stop-color="#040404"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3558" data-name="Group 3558" transform="translate(0.997 0.997)">
+    <path id="Path_6014" data-name="Path 6014" d="M96.866,0A96.866,96.866,0,1,1,0,96.866,96.866,96.866,0,0,1,96.866,0Z" transform="translate(-0.997 135.993) rotate(-45)" fill="url(#radial-gradient)"/>
+    <path id="Path_3492" data-name="Path 3492" d="M-184.7,12.521a96.161,96.161,0,0,0-96.161,96.161A96.161,96.161,0,0,0-184.7,204.843a96.161,96.161,0,0,0,96.161-96.161A96.161,96.161,0,0,0-184.7,12.521Zm0,190.912a94.751,94.751,0,0,1-94.751-94.751A94.751,94.751,0,0,1-184.7,13.931a94.751,94.751,0,0,1,94.751,94.751A94.751,94.751,0,0,1-184.7,203.433Z" transform="translate(320.696 27.31)" fill="url(#linear-gradient)"/>
+    <path id="Path_3494" data-name="Path 3494" d="M-106.354,52.965A96.015,96.015,0,0,0-184.7,12.521a96.161,96.161,0,0,0-96.161,96.161,95.848,95.848,0,0,0,27.9,67.72C-231.674,98.009-166.6,55.252-106.354,52.965Z" transform="translate(320.696 27.31)" opacity="0" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

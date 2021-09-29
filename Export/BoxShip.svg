@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="233.994" height="233.993" viewBox="0 0 233.994 233.993">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.188" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0.502" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.508" stop-color="#fff" stop-opacity="0.016"/>
+      <stop offset="0.647" stop-color="#fff" stop-opacity="0.361"/>
+      <stop offset="0.769" stop-color="#fff" stop-opacity="0.635"/>
+      <stop offset="0.871" stop-color="#fff" stop-opacity="0.831"/>
+      <stop offset="0.947" stop-color="#fff" stop-opacity="0.953"/>
+      <stop offset="0.99" stop-color="#fff"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.573" y1="0.734" x2="0.445" y2="0.323" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.88" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="BoxShip" transform="translate(-3906.619 5370.858)">
+    <rect id="Rectangle_523" data-name="Rectangle 523" width="232.494" height="232.493" transform="translate(3907.369 -5370.108)" fill="#fff" opacity="0.03"/>
+    <rect id="Rectangle_524" data-name="Rectangle 524" width="232.494" height="232.493" transform="translate(3907.369 -5370.108)" fill="url(#radial-gradient)"/>
+    <path id="Path_2181" data-name="Path 2181" d="M4119.357-5398.053v50.945l-232.494,124.235v-175.181Z" transform="translate(20.512 27.951)" opacity="0.5" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_525" data-name="Rectangle 525" width="232.494" height="232.493" transform="translate(3907.369 -5370.108)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>

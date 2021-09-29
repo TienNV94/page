@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="78" viewBox="0 0 78 78">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.81" y1="0.14" x2="0.12" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0052ff"/>
+      <stop offset="1" stop-color="#2eccff"/>
+    </linearGradient>
+  </defs>
+  <g id="ButtonSearch" transform="translate(-1648 -5014)">
+    <rect id="Rectangle_516" data-name="Rectangle 516" width="78" height="78" rx="20" transform="translate(1648 5014)" fill="url(#linear-gradient)"/>
+    <g id="search" transform="translate(1670 5036)">
+      <path id="search-2" data-name="search" d="M33.5,31.118l-8.14-8.454A13.824,13.824,0,1,0,22.7,25.095l8.2,8.517a1.8,1.8,0,1,0,2.6-2.493ZM14.788,3.613A10.19,10.19,0,1,1,4.582,13.8,10.2,10.2,0,0,1,14.788,3.613Z" transform="translate(-0.977 -0.026)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="652.59" height="511.69" viewBox="0 0 652.59 511.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3b0080;
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.372" cy="0.155" r="1.155" gradientTransform="translate(0.175) scale(0.65 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0b55b8"/>
+      <stop offset="0.458" stop-color="#262394"/>
+      <stop offset="0.99" stop-color="#3b0080"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_119" data-name="Group 119" transform="translate(1709.337 5497.267)">
+    <path id="Path_142" data-name="Path 142" class="cls-1" d="M-1161.747-5372.307v261.77a19.762,19.762,0,0,1-.38,3.87,19.952,19.952,0,0,1-19.58,16.09h-402.68a19.953,19.953,0,0,1-19.62-16.33,19.751,19.751,0,0,1-.33-3.63v-261.77a19.956,19.956,0,0,1,19.95-19.96h402.68A19.965,19.965,0,0,1-1161.747-5372.307Z"/>
+    <path id="Path_143" data-name="Path 143" class="cls-2" d="M-1150.727-5389.887v266.88a17.411,17.411,0,0,1-11.4,16.34,17.3,17.3,0,0,1-6,1.07H-1597.4a17.128,17.128,0,0,1-6.61-1.31,17.4,17.4,0,0,1-10.79-16.1v-266.88a17.4,17.4,0,0,1,17.4-17.4h429.27A17.4,17.4,0,0,1-1150.727-5389.887Z"/>
+  </g>
+</svg>

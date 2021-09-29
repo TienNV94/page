@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="80" viewBox="0 0 79 80">
+  <defs>
+    <filter id="ButtonYellowOval" x="0" y="0" width="79" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#ffc102" flood-opacity="0.412"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ButtonYellowOval-2" data-name="ButtonYellowOval" transform="translate(-1659 -2217)">
+    <g transform="matrix(1, 0, 0, 1, 1659, 2217)" filter="url(#ButtonYellowOval)">
+      <ellipse id="ButtonYellowOval-3" data-name="ButtonYellowOval" cx="24.5" cy="25" rx="24.5" ry="25" transform="translate(15 5)" fill="#ffc102"/>
+    </g>
+    <path id="Color_Copy_2" data-name="Color Copy 2" d="M1.989,10.31l-7.651,8.182a1.216,1.216,0,0,0,.152,1.817,1.5,1.5,0,0,0,1.982-.14l8.435-9.021a1.208,1.208,0,0,0,0-1.677L-3.527.45A1.5,1.5,0,0,0-5.509.31a1.216,1.216,0,0,0-.152,1.817Z" transform="translate(1699.388 2236.479)" fill="#fff"/>
+  </g>
+</svg>
